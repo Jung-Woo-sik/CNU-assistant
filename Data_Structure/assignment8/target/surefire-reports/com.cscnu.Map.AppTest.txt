@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.cscnu.Map.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.361 sec <<< FAILURE! - in com.cscnu.Map.AppTest
+test(com.cscnu.Map.AppTest)  Time elapsed: 0.076 sec  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<4,5,6> but was:<null>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at com.cscnu.Map.AppTest.test(AppTest.java:26)
+

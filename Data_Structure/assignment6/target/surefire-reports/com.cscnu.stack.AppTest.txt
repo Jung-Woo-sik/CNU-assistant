@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.cscnu.stack.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.493 sec <<< FAILURE! - in com.cscnu.stack.AppTest
+test(com.cscnu.stack.AppTest)  Time elapsed: 10.302 sec  <<< ERROR!
+java.lang.IllegalStateException: stack is empty.
+	at com.cscnu.stack.ListStack.pop(ListStack.java:14)
+	at com.cscnu.stack.AppTest.test(AppTest.java:34)
+
