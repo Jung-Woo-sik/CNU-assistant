@@ -1,6 +1,3 @@
-
-// CPP program to illustrate 
-// working of Virtual Functions 
 #include<iostream> 
 using namespace std; 
 
@@ -12,7 +9,6 @@ class base
 		virtual void fun_3() { cout << "base-3\n"; } 
 		virtual void fun_4() { cout << "base-4\n"; } 
 }; 
-
 class derived : public base 
 { 
 	public: 
@@ -20,26 +16,20 @@ class derived : public base
 		void fun_2() { cout << "derived-2\n"; } 
 		void fun_4(int x) { cout << "derived-4\n"; } 
 }; 
-
 int main() 
 { 
 	base *p; 
 	derived obj1; 
 	p = &obj1; 
-
 	// Early binding because fun1() is non-virtual 
 	// in base 
 	p->fun_1(); 
-
 	// Late binding (RTP) 
 	p->fun_2(); 
-
 	// Late binding (RTP) 
 	p->fun_3(); 
-
 	// Late binding (RTP) 
 	p->fun_4(); 
-
 	// Early binding but this function call is 
 	// illegal(produces error) becasue pointer 
 	// is of base type and function is of 
