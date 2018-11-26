@@ -1,0 +1,15 @@
+@startuml
+class fool{
+	--Simple Getter--
+		+getName()
+		+Address()
+
+		--Some setter--
+		+setName()
+		__private data__
+		int age
+		__encrypted__
+		String password
+}
+@enduml
+
